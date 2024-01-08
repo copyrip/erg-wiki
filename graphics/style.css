@@ -1,3 +1,7 @@
+html, body {
+	background:teal;
+	color:white;
+}
 h1 {
 	display:none;
 }
@@ -7,13 +11,13 @@ pre {
 }
 span {
 	display:inline-block;
-	color:red;
+	color:white;
 }
 
 .circle {
 	transform:rotate(4deg);
 	/*border:2px solid red*/
-	outline:2px solid red;
+	outline:2px solid white;
 	outline-offset:5px;
 	border-radius:12px;
 }
