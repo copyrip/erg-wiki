@@ -1,0 +1,19 @@
+h1 {
+	display:none;
+}
+pre {
+	font-size:18pt;
+	font-family:Courier, monospace;
+}
+span {
+	display:inline-block;
+	color:red;
+}
+
+.circle {
+	transform:rotate(4deg);
+	/*border:2px solid red*/
+	outline:2px solid red;
+	outline-offset:5px;
+	border-radius:12px;
+}
