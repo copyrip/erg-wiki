@@ -11,6 +11,8 @@ erg's winterschool wikithon
 * erg wiki edit-a-thon
 * erg.wiki
 * hardwerg
+* wikithon
+* edit-a-thon
 ## sous-titres
 * documenter nos communs sur le site de l'école
 * 
