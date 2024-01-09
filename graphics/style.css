@@ -1,13 +1,16 @@
 html, body {
+
 	background:#AAA;
 	color:#000;
 }
 
 body {
 	background:#fff;
+	/*
 	width:210mm;
 	height:297mm;
 	border:1px solid grey;
+	*/
 h1 {
 	display:block;
 	font-size:32pt;
@@ -42,12 +45,16 @@ span {
 img {
 	width:600px;
 	mix-blend-mode:hard-light;
+	z-index:20;
+	position:relative;
 }
 
-#img_bg {
+#moving_div {
 	width:600px;
 	height:500px;
 	background-color:crimson;
 	margin-top:-500px;
 	margin-left:14px;
+	position: absolute;
+	z-index:1;
 }

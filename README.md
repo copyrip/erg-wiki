@@ -2,8 +2,8 @@
 erg's winterschool wikithon
 
 # to do
-* [ ] 📞 group call 
-* [ ] affiche
+* [ ] 📞 group call (mercredi)
+* [ ] affiche (mercredi matin)
 * [ ] relire pad
 
 # communication
