@@ -1,3 +1,6 @@
+pre,div {
+  display:none;
+}
 html, body {
 
 	background:#AAA;
@@ -14,10 +17,19 @@ body {
 h1 {
 	display:block;
 	font-size:32pt;
+	z-index:1;
+	position:relative;
 }
+
+h2 {
+	z-index:1;
+	position:relative;
+      }
 pre {
 	font-size:18pt;
 	font-family:Courier, monospace;
+	z-index:1;
+	position:relative;
 }
 span {
 	display:inline-block;
@@ -56,5 +68,5 @@ img {
 	margin-top:-500px;
 	margin-left:14px;
 	position: absolute;
-	z-index:1;
+	z-index:0;
 }
