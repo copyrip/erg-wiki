@@ -11,6 +11,15 @@ erg's winterschool wikithon
 * erg wiki edit-a-thon
 * erg.wiki
 * hardwerg
+## sous-titres
+* documenter nos communs sur le site de l'école
+* 
+## mood
+* word art
+* clip art
+* documentation
+* archive
+* library
 
 ## description
 atelier participatif de documentation, mise en ligne, mise à jour du site de l'erg. Collaboratif par essence, le wiki de l'erg n'a jamais vraiment été utilisé pas les étudiant.e.s dans leur cursus.
