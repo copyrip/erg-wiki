@@ -1,9 +1,9 @@
 html, body {
-	background:teal;
-	color:white;
+	background:#fff;
+	color:#000;
 }
 h1 {
-	display:none;
+	display:block;
 }
 pre {
 	font-size:18pt;
@@ -11,13 +11,23 @@ pre {
 }
 span {
 	display:inline-block;
-	color:white;
+	color:red;
 }
 
 .circle {
 	transform:rotate(4deg);
 	/*border:2px solid red*/
-	outline:2px solid white;
+	outline:2px solid red;
 	outline-offset:5px;
 	border-radius:12px;
+}
+
+.wa-16 {
+	font-family: Times New Roman, serif;
+	font-weight: 400;
+	background: linear-gradient(#b6b6b6 0%, #5f5f5f 20%, #b1b1b1 30%, #fff 64%, #6c6c6c 65%, #373737 66%, #515151 67%, #787878 75%, #d2d2d2 80%, #d2d2d2 100%);
+	background-clip: border-box;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
 }

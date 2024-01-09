@@ -4,8 +4,16 @@ erg's winterschool wikithon
 # to do
 * [ ] 📞 group call 
 * [ ] affiche
-* [ ] 
-* [ ] 
+* [ ] relire pad
+
+# communication
+## titres
+* erg wiki edit-a-thon
+* erg.wiki
+* hardwerg
+
+## description
+atelier participatif de documentation, mise en ligne, mise à jour du site de l'erg. Collaboratif par essence, le wiki de l'erg n'a jamais vraiment été utilisé pas les étudiant.e.s dans leur cursus.
 
 # idées
 * [Page au hasard](https://wiki.erg.be/w/Spécial:Page au hasard)
