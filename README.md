@@ -82,5 +82,7 @@ faire recaps en fin de journée
     * inciter à modifer, créer des pages sur le site
     * recettes erg à table
     * contacter acteurices directement (EAT, Ergote Radio, ...) 
+        * scanner
+        * 
     * visible que lorsqu'on est loggés ?
     * 
