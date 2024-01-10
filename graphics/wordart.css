@@ -1,4 +1,54 @@
 /* WORDART CSS V0.1 */
+/* martin@copyright.rip
+ * 
+ * A list of class inspired from Microsoft
+ * Word word art presets.
+ *
+ *
+ */
 
 .wa-1 {
+  font-weight: 900;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: 1px #000;
+}
+
+.wa-2 {
+  font-weight: 900;
+  color: #000;
+  transform: rotate(-3deg) skewY(-10deg);
+}
+
+.wa-3 {
+  font-style: italic;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 3px 2px 0 #999;
+}
+
+.wa-4 {
+  font-family: Times New Roman, serif;
+  font-weight: 400;
+  color: #336699;
+  text-shadow: 2px 1px 0 #c1c1c1;
+}
+
+div.wa-9 {
+  margin-top:70px;
+  text-align:center;
+  transform:scale(0.9, 1.65) rotate(-3deg) skewY(-3deg) translateZ(0)
+}
+
+.wa-9 {
+  font-family: Impact, sans-serif;
+  font-weight: 700;
+  color: transparent;
+  background: linear-gradient(#6900cc, #cb00cc);
+    background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.016em #d2a2fe;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
