@@ -50,13 +50,14 @@ span {
   -webkit-background-clip: text;
   background-clip: text;
 }
-
+/*
 img {
   width:600px;
   mix-blend-mode:hard-light;
   z-index:20;
   position:relative;
 }
+*/
 
 #moving_div {
   width:600px;
