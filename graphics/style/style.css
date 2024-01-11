@@ -5,7 +5,10 @@
  * -> File size
  * -> Layout
  *
+ * ## Ideas
+ * 	Make temp divs in random colors (like blender texturing).
  *
+ * 	Move layouts pieces elsewhere
  */
 
 /*****************************
@@ -14,6 +17,7 @@
 
 /* Page */
 .page {
+  position:relative;
   margin:5mm;
 }
 
@@ -22,15 +26,46 @@
   background-color: #FFF;
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
-  background-image: linear-gradient(45deg, #CCC 25%, transparent 25%, transparent 75%, #CCC 75%, #CCC),
-  linear-gradient(45deg, #CCC 25%, transparent 25%, transparent 75%, #CCC 75%, #CCC);
+  background-image: linear-gradient(
+  45deg,
+  #CCC 25%,
+  transparent 25%,
+  transparent 75%,
+  #CCC 75%,
+  #CCC),
+  linear-gradient(
+  45deg,
+  #CCC 25%,
+  transparent 25%,
+  transparent 75%,
+  #CCC 75%,
+  #CCC
+  );
+}
+
+/* Patterns */
+.danger {
+  background-color: yellow;
+  opacity: 1;
+  background-image: repeating-linear-gradient(
+  45deg, 
+  transparent, 
+  transparent 30px, 
+  #000000 30px, 
+  #000000 50px);
+}
+
+
+/* Tmp */
+.tmp {
+  background-color:rgba(255,0,0,0.4);
 }
 
 /*****************************
  * ## File sizes
  *****************************/
 
-.a4_portrait {
+.a4_landscape {
   box-sizing: content-box;
   width:297mm;
   height:210mm;
@@ -38,7 +73,7 @@
   background-color:#fff;
 }
 
-.a4_landscape {
+.a4_portrait {
   box-sizing: content-box;
   width:210mm;
   height:297mm;
@@ -46,7 +81,7 @@
   background-color:#fff;
 }
 
-.a5_portrait {
+.a5_landscape {
   box-sizing: content-box;
   width:210mm;
   height:148.5mm;
@@ -54,12 +89,51 @@
   background-color:#fff;
 }
 
-.a5_landscape {
+.a5_portrait {
   box-sizing: content-box;
   width:148.5mm;
   height:210mm;
 
   background-color:#fff;
+}
+
+/*****************************
+ * ## Layout 
+ *****************************/
+
+#top {
+  width:100%;
+  height:50px;
+}
+
+#right {
+  position:absolute;
+  top:0;
+  right:0;
+
+  width:50px;
+  height:100%;
+}
+
+#bottom {
+  position:absolute;
+  bottom:0;
+
+  height:50px;
+  width:100%;
+}
+
+#left {
+  position:absolute;
+  top:0;
+  left:0;
+
+  width:50px;
+  height:100%;
+}
+
+h1 {
+  font-family:"Impact",cursive;
 }
 
 /*
@@ -75,18 +149,7 @@ height:297mm;
 border:1px solid grey;
 }
 
-#top {
-width:100%;
-height:50px;
 
-color:#000;
-
-text-transform:uppercase;
-font-style:italic;
-font-weight:bold;
-
-padding:10px;
-}
 
 #top h1 {
 background-color:yellow;
@@ -142,10 +205,5 @@ border-radius:12px;
   position: absolute;
   z-index:0;
 }
-.bg {
-  background-color: yellow;
-  opacity: 1;
-  /*background: repeating-linear-gradient( 45deg, #000000, #000000 10.5px, #fff500 10.5px, #fff500 52.5px );*/
-  background: repeating-linear-gradient( -45deg, #000000, #000000 10px, yellow 15px, yellow 20px );
-}
+
 */
