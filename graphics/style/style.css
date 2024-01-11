@@ -196,6 +196,17 @@ h2 {
   color:#0000FF;
   text-decoration:underline;
 }
+
+/*****************************
+ * ## Print settings 
+ *****************************/
+
+@media print {
+  .page {
+    margin:0;
+    zoom:50%;
+  }
+
 /*
 html, body {
 background:#AAA;
