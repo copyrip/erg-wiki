@@ -9,37 +9,81 @@
   </head>
   <body class="alpha_grid">
 
-    <div class="page a4_portrait">
-      <div id="top" class="danger">
+    <div class="page a3_portrait">
+      <div id="top" class="danger scroll-x">
       </div>
-      <div id="right" class="danger">
+      <div id="right" class="danger scroll-y">
       </div>
-      <div id="bottom" class="danger">
+      <div id="bottom" class="danger scroll-x">
       </div>
-      <div id="left" class="danger">
+      <div id="left" class="danger scroll-y">
       </div>
 
       <h1>SITE<br>MAINTENANCE</h1>
+      <ul>
+	<li>lundi 22 janvier</li>
+	<li>mardi 23 janvier</li>
+	<li>mercredi 24 janvier</li>
+      </ul>
+      <h2>erg galerie</h2>
+      <div id="wrap">
+	<a href="">
+	  <img src="./img/construction/buildersbrake.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/construction.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/construction3.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/construction_hammering_md_wht.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/construction_sign.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/sorryconstruction.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/undercon3.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/underconstruction_animated_languages.gif">
+	</a>
+	<a href="">
+	  <img src="./img/construction/underconstruction.gif" width="250">
+	</a>
+	<a href="">
+	  <img src="./img/construction/worker_on_beam_md_wht.gif">
+	</a>
+	<a href="https://web.archive.org/web/20091022232620/http://geocities.com/Heartland/Prairie/1139/mormon1.html">
+	  <img src="./img/construction/constructionpiclarge.gif">
+	</a>
+	<a href="https://web.archive.org/web/20090807150937/http://geocities.com/darkspiritangel/boards.html">
+	  <img src="./img/construction/councilworker.gif">
+	</a>
+      </div>
+      <h2>www.erg.be</h2>
     </div>
 
     <!--
-    <div id="top" class="bg">
+      <div id="top" class="bg">
       <h1>prenons soin de www.erg.be, le site de l'école</h1>
-    </div>
+      </div>
 
 
-    <div id=right" class="bg">
+      <div id=right" class="bg">
       du 22 au 24 janvier dans la gallerie de l'erg
-    </div>
+      </div>
 
-    <div id="bottom">
-    </div>
+      <div id="bottom">
+      </div>
 
-    <div id="left">
-    </div>
+      <div id="left">
+      </div>
 
-    <div id="wrap">
-
+      <div id="wrap">
       <img src="./img/construction/buildersbrake.gif">
       <img src="./img/construction/construction.gif">
       <img src="./img/construction/construction3.gif">
@@ -50,7 +94,7 @@
       <img src="./img/construction/underconstruction_animated_languages.gif">
       <img src="./img/construction/underconstruction.gif">
       <img src="./img/construction/worker_on_beam_md_wht.gif">
-    </div>
+      </div>
     -->
 
     <!--
@@ -80,16 +124,16 @@
   ___ _ __ __ _  __      _(_) | _(_)
  / _ \ '__/ _` | \ \ /\ / / | |/ / |
 |  __/ | | (_| |  \ V  V /| |   <| |
- \___|_|  \__, |   \_/\_/ |_|_|\_\_|
+	  \___|_|  \__, |   \_/\_/ |_|_|\_\_|
 	  |___/                     
 
-				      "    #        "   
-  mmm    m mm   mmmm        m     m mmm    #   m  mmm   
- #"  #   #"  " #" "#        "m m m"   #    # m"     #   
- #""""   #     #   #         #m#m#    #    #"#      #   
- "#mm"   #     "#m"#          # #   mm#mm  #  "m  mm#mm 
-		m  #                                    
-		 ""                                     
+"    #        "   
+	  mmm    m mm   mmmm        m     m mmm    #   m  mmm   
+	  #"  #   #"  " #" "#        "m m m"   #    # m"     #   
+	  #""""   #     #   #         #m#m#    #    #"#      #   
+						      "#mm"   #     "#m"#          # #   mm#mm  #  "m  mm#mm 
+	  m  #                                    
+	  ""                                     
 
       </pre>
       <pre>
@@ -130,7 +174,7 @@ Lu Ma Me Je Ve Sa Di
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <script>
 	$(document).ready(function() {
-	  var imgs = $("#wrap img");
+	  var imgs = $("#wrap a");
 	  imgs.sort(function() {
 	    return Math.random() - 0.5;
 	  });
