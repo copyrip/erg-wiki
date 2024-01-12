@@ -1,6 +1,11 @@
 # erg-wiki
 erg's winterschool wikithon
 
+## description
+Le permafrost de la winterschool à grippé les serveurs du site de l'école...
+
+Pendant cet atelier de trois jours, plongeons nos mains dans le camboui du wiki de l'erg.
+
 # to do
 * [ ] 📞 group call (mercredi)
 * [ ] affiche (mercredi matin)
