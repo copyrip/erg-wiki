@@ -1,5 +1,14 @@
 # erg-wiki
-erg's winterschool wikithon
+erg's winterschool 2024 wikithon
+
+*"Le permafrost de la Winterschool à grippé les serveurs du site de l'école... venez nous aider sous la glace a prendre soin et embellir notre bout de web."*
+
+
+Cet atelier sera l'occasion d'essayer de se réapproprier le site de l'erg, apprendre à s'en servir, publier dessus et réfléchir ensemble à comment l'utiliser au mieux !
+
+
+Plus d'informations →
+(http://wiki.erg.be/w/SITE_MAINTENANCE/)
 
 ## description
 Le permafrost de la winterschool à grippé les serveurs du site de l'école...
