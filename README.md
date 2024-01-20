@@ -7,8 +7,7 @@ erg's winterschool 2024 wikithon
 Cet atelier sera l'occasion d'essayer de se réapproprier le site de l'erg, apprendre à s'en servir, publier dessus et réfléchir ensemble à comment l'utiliser au mieux !
 
 
-Plus d'informations →
-(http://wiki.erg.be/w/SITE_MAINTENANCE/)
+Plus d'informations → http://wiki.erg.be/w/SITE_MAINTENANCE/
 
 ## description
 Le permafrost de la winterschool à grippé les serveurs du site de l'école...
@@ -16,19 +15,21 @@ Le permafrost de la winterschool à grippé les serveurs du site de l'école...
 Pendant cet atelier de trois jours, plongeons nos mains dans le camboui du wiki de l'erg.
 
 # to do
-* [ ] 📞 group call (mercredi)
-* [ ] affiche (mercredi matin)
-* [ ] 📖 relire pad
-* [ ] essayer typos
-* [ ] lister infos
-* [ ] idées approches
-* [ ] micro ateliers
-* [ ] ajouter liens spéciaux au profil
-* [ ] créer une page pour l'atelier ?
 * [ ] trouver + editer un cheatsheet wiki markdown
 * [ ] la question de licences ?
 * [ ] cartographier le site
 * [ ] partie "archives" ? Anciens events, cours, enseignant.e.s
+* [x] 📞 group call (mercredi)
+* [x] affiche (mercredi matin)
+* [x] 📖 relire pad
+* [x] essayer typos
+* [x] lister infos
+* [x] idées approches
+* [x] micro ateliers
+* [x] ajouter liens spéciaux au profil
+* [x] créer une page pour l'atelier ?
+
+<!--
 
 
 # communication
