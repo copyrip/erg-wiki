@@ -9,16 +9,11 @@ Cet atelier sera l'occasion d'essayer de se réapproprier le site de l'erg, appr
 
 Plus d'informations → http://wiki.erg.be/w/SITE_MAINTENANCE/
 
-## description
-Le permafrost de la winterschool à grippé les serveurs du site de l'école...
-
-Pendant cet atelier de trois jours, plongeons nos mains dans le camboui du wiki de l'erg.
-
 # to do
-* [ ] trouver + editer un cheatsheet wiki markdown
 * [ ] la question de licences ?
 * [ ] cartographier le site
 * [ ] partie "archives" ? Anciens events, cours, enseignant.e.s
+* [x] trouver + editer un cheatsheet wiki markdown
 * [x] 📞 group call (mercredi)
 * [x] affiche (mercredi matin)
 * [x] 📖 relire pad
@@ -30,7 +25,6 @@ Pendant cet atelier de trois jours, plongeons nos mains dans le camboui du wiki 
 * [x] créer une page pour l'atelier ?
 
 <!--
-
 
 # communication
 ## titres
