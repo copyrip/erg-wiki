@@ -1,0 +1,157 @@
+/* C O M M O N . c s s
+ *
+ * # dark mode
+ * # templates
+ *
+
+/* une media query qui permet de prendre en compte la préférence de couleur du navigateur. 
+Tout ce qui est en dehor de cette @media est pour le thème blanc et dans le @media (prefers-color-scheme: dark)  */
+
+/* Liste des éléments à inverser
+* div.thumbcaption /* image "thumb" 
+* button.button.search /* lien externes 
+* a.external.free /* lien externes 
+* table.wikitable /* Table wiki ex : En construction Pika
+*/
+
+@media (prefers-color-scheme: dark) {
+
+  html {
+    background-color: #21201E;
+    background-color: #210201E;
+    color: white;
+  }      
+  a {
+    color: pink;
+  }
+  body{.
+    background-color:inherit;
+    color:inherit;
+    background: #21201E;
+  }
+
+  body.action-view #page-content a{
+    color: none;
+  }
+
+  #navwrapper {
+    background: white;
+    background-color: white;
+  }
+  .top-bar-section {
+    background: inherit;
+    #searchInput {
+      background-color: white;
+      color: black;
+      .title-area
+
+    }
+  }
+  pre{
+
+    border-radius: 10px;
+  }
+  .rssicon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(/mw/resources/assets/Feed-icon.png);
+  }
+
+
+
+  .hidden {
+    display: none;
+  }
+
+  table.infobox {
+    width: 30em;
+    font-size: 90%;
+    border: 1px solid #aaaaaa;
+    background-color: #f9f9f9;
+    color: black;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    text-align:left;
+  }
+
+  table.infobox th.head {
+    text-align: center;
+    background-color:#ccccff;
+  }
+
+  /* Flexgal */
+  div.flexgal {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  div.flexgal div.item {
+    display: flexbox;
+  }
+  div.flexgal div.item p {
+    margin: 0;
+    padding: 0; /* padding + margin seem to conflict with the grid layout */
+  }
+  a img {
+    border: none;
+    vertical-align: top; /* magically this cancels the containing anchor's bottom border */
+  }
+
+  div.pubdate {
+    clear: both;
+  }
+
+  .Media {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1em;
+  }
+
+  .Media-figure {
+    margin-right: 1em;
+  }
+
+  .Media-body {
+    flex: 1;
+  }
+
+  /* simplify the footer links */
+  ul#poweredby, li#footer-disclaimer { display: none; }
+
+  .snowflake {
+    position:absolute;
+    color:blue;
+    transition: top 5s linear;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0,0,0,0.01);
+  }
+
+  #content {
+    max-width: 80ch;
+    margin: auto;
+  }
+
+
+  /* -- External Image Template -- */
+  .externalimage-holder {
+    display:inline-block;
+    position: relative;
+  }
+  .externalimage-holder img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* -- Captcha Page Edition -- */
+  label[for=wpCaptchaWord] {
+    background-color:#FFCCCB;
+    color:white;
+    border:2px solid white;
+  }
+
+

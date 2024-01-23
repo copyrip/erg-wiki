@@ -9,12 +9,17 @@ Cet atelier sera l'occasion d'essayer de se réapproprier le site de l'erg, appr
 
 Plus d'informations → http://wiki.erg.be/w/SITE_MAINTENANCE/
 
+# Skin
+## Typography
+## Colors
+
 # to do
-* [ ] favicon
+* [ ] embed mixcloud
 * [ ] new template
 * [ ] la question de licences ?
 * [ ] cartographier le site
 * [ ] partie "archives" ? Anciens events, cours, enseignant.e.s
+* [x] favicon
 * [x] trouver + editer un cheatsheet wiki markdown
 * [x] 📞 group call (mercredi)
 * [x] affiche (mercredi matin)
