@@ -13,7 +13,36 @@ Plus d'informations → http://wiki.erg.be/w/SITE_MAINTENANCE/
 ## Typography
 ## Colors
 
+/!\ #p-menu
+
+# Templates
+## Badges
+* sections
+    * sculpture
+    * typographie
+* goûts
+    * erg à table
+    * trottoir
+    * boucherie
+    * carrefour
+    * petits riens
+* nationalité
+    * français.e
+    * belg.e
+    * mexicain.e
+* positions
+    * anti @erg.school
+    * pro @erg.school
+* socials
+    * masto
+    * ig
+    * autre ...
+*
+
 # to do
+* [ ] simple onboarding (poster)
+* [x] badges
+* [ ] better menu
 * [ ] embed mixcloud
 * [ ] new template
 * [ ] la question de licences ?
