@@ -23,9 +23,15 @@ Plus d'informations → http://wiki.erg.be/w/SITE_MAINTENANCE/
 * goûts
     * erg à table
     * trottoir
-    * boucherie
-    * carrefour
     * petits riens
+* repas
+    * boucheriek
+    * delitraiteur
+    * o chinoiserie
+    * poulet pané ma campagne
+    * boucherie ma campagne
+    * carrefour
+    * traiteur vietnam
 * nationalité
     * français.e
     * belg.e
